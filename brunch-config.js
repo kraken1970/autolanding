@@ -9,11 +9,16 @@ module.exports = {
     },
   },
   server: {
-    hostname: 'localhost',
+    hostname: '0.0.0.0',
     port: 3000
   },
-
+  notifications: false,
   plugins: {
+    autoReload: {
+      forceRepaint: true,
+      forcewss: true,
+      port: 9485
+    },
     babel: {
       presets: ['es2015']
     },
@@ -28,7 +33,6 @@ module.exports = {
         require('postcss-extend'),
         require('postcss-mixins'),
         require('postcss-partial-import'),
-        require('postcss-autoreset'),
         require('postcss-assets')({
           loadPaths: ['app/assets'],
           relativeTo: 'app/css/'
