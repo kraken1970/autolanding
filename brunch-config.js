@@ -12,11 +12,12 @@ module.exports = {
     hostname: '0.0.0.0',
     port: 3000
   },
+  watcher: {
+    usePolling: true
+  },
   notifications: false,
   plugins: {
     autoReload: {
-      forceRepaint: true,
-      forcewss: true,
       port: 9485
     },
     babel: {
