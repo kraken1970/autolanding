@@ -1,0 +1,30 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "brunch watch --server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^7.0.1",
+    "brunch": "^2.10.9",
+    "postcss-assets": "^4.1.0",
+    "postcss-autoreset": "^1.2.1",
+    "postcss-brunch": "^2.0.5",
+    "postcss-extend": "^1.0.5",
+    "postcss-flexbugs-fixes": "^3.0.0",
+    "postcss-flexibility": "^1.1.1",
+    "postcss-font-magician": "^1.6.1",
+    "postcss-mixins": "^6.0.0",
+    "postcss-nested": "^2.0.2",
+    "postcss-partial-import": "^4.1.0",
+    "postcss-short": "^3.0.3",
+    "postcss-simple-vars": "^4.0.0"
+  }
+}
