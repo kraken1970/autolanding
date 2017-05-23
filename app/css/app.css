@@ -1,2 +1,15 @@
 @import 'normalize.css/normalize.css';
 @import './libs/bootstrap-grid-3.3.1.min.css';
+@import './fonts.css';
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  width: auto\9;
+}
