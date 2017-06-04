@@ -13,3 +13,12 @@ img {
   max-width: 100%;
   width: auto\9;
 }
+header {
+  background-image: url(../images/headerfon.jpg);
+  background-repeat: repeat-x;
+  background-position: top center;
+  position: relative;
+  min-height: 642px;
+  
+
+}
