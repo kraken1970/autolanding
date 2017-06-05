@@ -19,11 +19,42 @@ header {
   background-position: top center;
   position: relative;
   min-height: 642px;
+  font-family: 'BebasBold';
 }
-.top_line {
-  min-height: 97px;
-border-bottom: 1px solid #626262;
-position: absolute:
-top: 0;
-width: 100%;
+header a{
+  color: #fff;
 }
+  .top_line {
+    min-height: 97px;
+  border-bottom: 1px solid #626262;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.60);
+  padding: 22px 0;
+}
+.top_line a{
+  font-size: 21px;
+  text-decoration: underline;
+}
+  .top_addr {
+    padding-left: 50px;
+    background-image: url(../images/top_map.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    line-height: 26px; 
+}
+  .top_addr strong {
+    display: block;
+    color: #d12f22;
+    font-size: 31px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.top_addr a{
+  font-size: 21px;
+  text-decoration: underline;
+}
+
+
+
