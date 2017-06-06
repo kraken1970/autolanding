@@ -19,7 +19,7 @@ header {
   background-position: top center;
   position: relative;
   min-height: 642px;
-  font-family: 'BebasBold';
+  font-family: 'BebasRegular';
 }
 header a{
   color: #fff;
@@ -82,7 +82,7 @@ header a{
 header h1 {
   text-align: center;
   color: #fff;
-  margin-top: 68px;
+  margin-top: 65px;
   font-size: 40px;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.55);
 }
