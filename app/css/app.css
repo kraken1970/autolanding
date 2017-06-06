@@ -27,8 +27,6 @@ header a{
   .top_line {
     min-height: 97px;
   border-bottom: 1px solid #626262;
-  position: absolute;
-  top: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.60);
   padding: 22px 0;
@@ -54,7 +52,7 @@ header a{
  .top_addr strong {
    display: block;
    color: #d12f22;
-   font-size: 31px;
+   font-size: 32px;
    font-weight: normal;
    text-transform: uppercase;
 }
@@ -72,6 +70,21 @@ header a{
   margin: auto;
   position: relative;
   width: 249px;
+}
+.ta_right {
+  background-image: none;
+  padding-left: 0;
+  text-align: right;
+}
+.ta_right span{
+  color: #fff;
+}
+header h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 68px;
+  font-size: 40px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.55);
 }
 
 
