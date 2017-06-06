@@ -35,26 +35,45 @@ header a{
 }
 .top_line a{
   font-size: 21px;
-  text-decoration: underline;
+  border-bottom: #fff dashed 1px ;
+  /* медленное затухание*/
+  -webkit-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
 }
-  .top_addr {
-    padding-left: 50px;
-    background-image: url(../images/top_map.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    line-height: 26px; 
+.top_line a:hover {
+  border-bottom: transparent 1px dashed;
 }
-  .top_addr strong {
-    display: block;
-    color: #d12f22;
-    font-size: 31px;
-    font-weight: normal;
-    text-transform: uppercase;
+.top_addr {
+   padding-left: 50px;
+   background-image: url(../images/top_map.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   line-height: 26px; 
 }
-.top_addr a{
-  font-size: 21px;
-  text-decoration: underline;
+ .top_addr strong {
+   display: block;
+   color: #d12f22;
+   font-size: 31px;
+   font-weight: normal;
+   text-transform: uppercase;
 }
+  .top_line .logo{
+   border-bottom: none;
+   margin-top: -18px;
+   position: absolute;
+  
+}
+  .top_line .logo:hover{
+   border-bottom: none;
+   
+}
+.logo_wrap{
+  margin: auto;
+  position: relative;
+  width: 249px;
+}
+
 
 
 
