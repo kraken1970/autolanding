@@ -125,7 +125,72 @@ header .button{
   /*высота изменена автором*/
   background-color: #242424;
   border-bottom: 1px solid #626262;
+  font-family: BebasRegular;
+  text-transform: uppercase;
 }
+.top_menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.top_menu a{
+  color: #fff;
+  font-size: 20px;
+  padding: 0 26px;
+  display: block;
+  line-height: 62px;
+}
+.top_menu li{
+  float: left;
+}
+.top_menu li.top_icon1,
+.top_menu li:hover{
+  background-color: #050505;
+  border-left: #3b3b3b 1px solid;
+}
+.top_icon1 {
+  background-image: url(../images/top_icon1.png);
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  padding-left: 15px;
+}   
+.top_icon2 {
+  background-image: url(../images/top_icon2.png);
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  padding-left: 15px;
+  border-left: #3b3b3b 1px solid; 
+}
+.top_icon3 {
+  background-image: url(../images/top_icon3.png);
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  padding-left: 15px;
+  border-left: #3b3b3b 1px solid;
+   
+}
+.top_icon4 {
+  background-image: url(../images/top_icon4.png);
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  padding-left: 15px;
+  border-left: #3b3b3b 1px solid;
+}
+.top_icon5 {
+  background-image: url(../images/top_icon5.png);
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  padding-left: 15px;
+  border-left: #3b3b3b 1px solid;
+}
+.top_icon6 {
+  background-image: url(../images/top_icon6.png);
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  padding-left: 15px;
+  border-left: #3b3b3b 1px solid;
+}
+
 
 
 

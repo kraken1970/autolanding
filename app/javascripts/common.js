@@ -37,10 +37,7 @@ $(document).ready(function() {
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
 
-	//Навигация по Landing Page
-	//$(".top_mnu") - это верхняя панель со ссылками.
-	//Ссылки вида <a href="#contacts">Контакты</a>
-	$(".top_mnu").navigation();
+
 
 	//Добавляет классы дочерним блокам .block для анимации
 	//Документация: http://imakewebthings.com/jquery-waypoints/
