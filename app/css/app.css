@@ -20,6 +20,7 @@ header {
   position: relative;
   min-height: 645px;
   font-family: 'BebasRegular';
+  border-bottom: 1px solid #626262;
 }
 header a{
   color: #fff;
@@ -118,6 +119,12 @@ header .button{
   position: absolute;
   width: 100%;
   bottom: 33px;
+}
+.top_menu{
+  height: 62px;
+  /*высота изменена автором*/
+  background-color: #242424;
+  border-bottom: 1px solid #626262;
 }
 
 
