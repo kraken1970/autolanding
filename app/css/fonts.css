@@ -48,11 +48,20 @@
 	font-weight: normal;
 }
 @font-face {
-	font-family: 'BebasBold';
-	src: url('../fonts/BebasBold/BebasBold.eot');
-	src: url('../fonts/BebasBold/BebasBold.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/BebasBold/BebasBold.woff') format('woff'),
-		 url('../fonts/BebasBold/BebasBold.ttf') format('truetype');
+	font-family: 'BebasBold ';
+	src: url('../fonts/BebasBold/BebasBold .eot');
+	src: url('../fonts/BebasBold/BebasBold .eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/BebasBold/BebasBold .woff') format('woff'),
+		 url('../fonts/BebasBold/BebasBold .ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'RobotoCondensedRegular';
+	src: url('../fonts/RobotoCondensedRegular.eot');
+	src: url('../fonts/RobotoCondensedRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/RobotoCondensedRegular.woff') format('woff'),
+		 url('../fonts/RobotoCondensedRegular.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }
