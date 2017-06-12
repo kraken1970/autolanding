@@ -341,16 +341,21 @@ body .mc_wrap .mc_item_wrap > ul {
   background-color: #353535;
   margin-top: 25px;
   margin: 0;
-  padding: 0;
-  list-style-type: none
+  padding: 15px 0;
+  list-style-type: none;
+  z-index: 10;
+  display: none;
 }
 .mc_item_wrap.activ > ul li {
-  float: left;
+  display: inline-block;
   font-family: "BebasRegular";
 }
 .mc_item_wrap.activ > ul li a{
-  padding: 0 20px;
+  padding: 0 10px;
   text-decoration: underline;
+}
+.mc_item_wrap.activ > ul li a:hover{
+  text-decoration: none;
 }
 
 
