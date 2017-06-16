@@ -361,12 +361,13 @@ body .mc_wrap .mc_item_wrap > ul {
 .mc_item_wrap.activ > ul li a:hover{
   text-decoration: none;
 }
-.mc_item_wrap::after {
+.mc_item_wrap::after{
   content: "";
   width: 18px;
   height: 9px;
   background-image: url(../images/mc_c_ar.png);
   position: absolute;
+  margin: 26px -9px;
 }
 
 
