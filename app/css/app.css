@@ -344,15 +344,15 @@ section h2{
   font-family: "BebasRegular";
 }
 body .mc_wrap .mc_item_wrap > ul {
-    width: 100%;
-    font-size: 20px;
-    background-color: #353535;
-    margin-top: 25px;
-    position: absolute;
-    list-style-type: none;
-    padding: 15px 0;
-    z-index: 10;
-    display:none;
+  width: 100%;
+  font-size: 20px;
+  background-color: #353535;
+  margin-top: 25px;
+  position: absolute;
+  list-style-type: none;
+  padding: 15px 0; 
+  z-index: 100;
+  
 }
 .mc_item_wrap.activ > ul li a{
   padding: 0 10px;
@@ -361,13 +361,14 @@ body .mc_wrap .mc_item_wrap > ul {
 .mc_item_wrap.activ > ul li a:hover{
   text-decoration: none;
 }
-.mc_item_wrap::after{
+.mc_c_ar::after {
   content: "";
   width: 18px;
   height: 9px;
   background-image: url(../images/mc_c_ar.png);
   position: absolute;
-  margin: 26px -9px;
+  margin: -53px -1022px;
+ 
 }
 
 
