@@ -305,7 +305,7 @@ section h2{
 .mc_item_wrap:nth-child(6) span {
   background-position: -622px 0;
 }
-.mc_item h4 
+.mc_item h4{ 
   font-size: 20px;
   font-weight: normal;
   font-family: BebasRegular;
@@ -322,7 +322,7 @@ section h2{
 }
 .mc_toggle {
   background-color: #212121;
-  position: relative
+  position: relative;
   height: 25px;
   cursor: pointer;
   background-image: url(../images/mc_ar.png);
