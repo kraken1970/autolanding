@@ -334,7 +334,8 @@ section h2{
   background-color: #353535;
   background-position: 72px 10px;
 }
-.mc_item_wrap > ul {
+
+ .mc_item_wrap > ul {
   width: 100%;
   text-align: center;
   position: absolute;
@@ -352,7 +353,7 @@ body .mc_wrap .mc_item_wrap > ul {
   list-style-type: none;
   padding: 15px 0; 
   z-index: 100;
-  
+  margin-left: -85px;
 }
 .mc_item_wrap.activ > ul li a{
   padding: 0 10px;
@@ -360,7 +361,7 @@ body .mc_wrap .mc_item_wrap > ul {
 }
 .mc_item_wrap.activ > ul li a:hover{
   text-decoration: none;
-}
+} 
 .mc_c_ar::after {
   content: "";
   width: 18px;
@@ -368,10 +369,14 @@ body .mc_wrap .mc_item_wrap > ul {
   background-image: url(../images/mc_c_ar.png);
   position: absolute;
   margin: -53px -1022px;
- 
 }
 
-
+ul .mc_c_ar{
+  display: none;
+}
+body .mc_wrap .mc_item_wrap:hover > ul {
+display: inline-block;
+}
 
 
 
