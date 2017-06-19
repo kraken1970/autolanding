@@ -340,11 +340,11 @@ section h2{
   text-align: center;
   position: absolute;
 }
-.mc_item_wrap.activ > ul li {
+.mc_item_wrap > ul li {
   display: inline-block;  
   font-family: "BebasRegular";
 }
-body .mc_wrap .mc_item_wrap > ul {
+.mc_item_wrap > ul {
   width: 100%;
   font-size: 20px;
   background-color: #353535;
@@ -352,14 +352,14 @@ body .mc_wrap .mc_item_wrap > ul {
   position: absolute;
   list-style-type: none;
   padding: 15px 0; 
-  z-index: 100;
   margin-left: -85px;
 }
-.mc_item_wrap.activ > ul li a{
+
+.mc_item_wrap > ul li a{
   padding: 0 10px;
   text-decoration: underline;
 }
-.mc_item_wrap.activ > ul li a:hover{
+.mc_item_wrap > ul li a:hover{
   text-decoration: none;
 } 
 .mc_c_ar::after {
@@ -370,11 +370,10 @@ body .mc_wrap .mc_item_wrap > ul {
   position: absolute;
   margin: -53px -1022px;
 }
-
 ul .mc_c_ar{
   display: none;
 }
-body .mc_wrap .mc_item_wrap:hover > ul {
+body .mc_wrap li:hover > ul {
 display: inline-block;
 }
 
