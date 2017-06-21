@@ -394,16 +394,59 @@ article h2.art_header::after{
   text-decoration: none;
 }
  /* временно отключил треуглы*/
-.angle_1::after {
+.angle_1::before {
   content: "";
   width: 18px;
   height: 9px;
   background-image: url(../images/mc_c_ar.png);
   position: absolute;
   display: block;
-  margin: 16px 68px;
-  /*visibility: hidden;
-  opacity: 0;*/
+  margin: -23px 74px;
+}
+.angle_2::before {
+  content: "";
+  width: 18px;
+  height: 9px;
+  background-image: url(../images/mc_c_ar.png);
+  position: absolute;
+  display: block;
+  margin: -23px 270px;
+}
+.angle_3::before {
+  content: "";
+  width: 18px;
+  height: 9px;
+  background-image: url(../images/mc_c_ar.png);
+  position: absolute;
+  display: block;
+  margin: -23px 464px;
+}
+.angle_4::before {
+  content: "";
+  width: 18px;
+  height: 9px;
+  background-image: url(../images/mc_c_ar.png);
+  position: absolute;
+  display: block;
+  margin: -23px 658px;
+}
+.angle_5::before {
+  content: "";
+  width: 18px;
+  height: 9px;
+  background-image: url(../images/mc_c_ar.png);
+  position: absolute;
+  display: block;
+  margin: -23px 854px;
+}
+.angle_6::before {
+  content: "";
+  width: 18px;
+  height: 9px;
+  background-image: url(../images/mc_c_ar.png);
+  position: absolute;
+  display: block;
+  margin: -23px 1048px;
 }
 .mc_wrap span::afer{
   background-image: none;
@@ -497,7 +540,7 @@ footer{
   width: 88px;
   height: 31px;
   margin: 16px;
-  float: right
+  float: right;
 }
 
 
