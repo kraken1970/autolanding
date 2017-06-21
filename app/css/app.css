@@ -136,7 +136,7 @@ header .button{
   padding: 0;
   list-style-type: none;
 }
-.top_menu a,{
+.top_menu a{
   color: #fff;
   font-size: 20px;
   padding: 0 26px 0 54px;
@@ -468,16 +468,36 @@ aside.oda{
   font-size: 16px;
   color: #050505;
 }
+aside .last_img {
+  margin-top: 20px;
+}
 footer{
   background-color: #2a2a2a;
   padding-top: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   font-family: "BebasRegular";
   font-size: 20px;
 }
 .bottom_nav li{
   display: inline-block;
+}
+.bottom_nav a{
+  padding: 0 0px 0 36px;
+  line-height: 62px;
+  text-decoration: underline;
+}
+.bottom_nav a:link,
+.bottom_nav a:visited{
+  color: #fff;
+}
+.counter span{
+  background-image: url(../images/counter.png);
+  display: block;
+  width: 88px;
+  height: 31px;
+  margin: 16px;
+  float: right
 }
 
 
