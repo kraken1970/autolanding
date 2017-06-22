@@ -193,6 +193,7 @@ header .button{
   padding-left: 10px;
   border-left: #3b3b3b 1px solid;
 }
+
 .warranty {
   float: right;
   color: #fff;
@@ -211,8 +212,9 @@ header .button{
 
 }
 .w_left{
-  font-family: "BebasBold";
+  font-family: 'BebasRegular';
   font-size: 20px;
+  font-weight: 700;
   margin-top: 10px;
   margin-right: 7px;
 }
